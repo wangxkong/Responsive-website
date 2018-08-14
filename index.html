@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./libs/bootstrap.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body data-spy="scroll" data-target="#header" data-offset="50">
+    <!-- 头部菜单开始 -->
+    <header id="header" class="fixed-top">
+        <div class="container nav-content ">
+            <nav class="navbar navbar-expand-md navbar-dark  navbar-content" style="padding:0">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler navbar-my-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item nav-item-link">
+                            <a class="nav-link" href="#section1">
+                                <i class="icon-logo"></i>
+                                <span>网站首页</span>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-item-link">
+                            <a class="nav-link" href="#section2"> 服务与支持</a>
+                        </li>
+                        <li class="nav-item nav-item-link">
+                            <a class="nav-link" href="#section3">产品展示</a>
+                        </li>
+                        <li class="nav-item nav-item-link">
+                            <a class="nav-link" href="#section4">客户</a>
+                        </li>
+                        <li class="nav-item nav-item-link">
+                            <a class="nav-link" href="#section5">关于我们</a>
+                        </li>
+                        <li class="nav-item last-item">
+                            <a class="nav-link dropdown " href="#" id="navbardrop" data-toggle="dropdown">
+                                <img src="./images/logo_msg.png" alt="">
+                            </a>
+                            <div class="dropdown-menu last-item-menu" >
+                                <a class="dropdown-item" href=""><img src="./images/Quickmark.png" alt=""></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--幻灯片ppt开始 -->
+    <section id="section-slider" >
+        <div id="section1" class="section-first" >
+            <div id="demo" class="carousel slide demo-list" data-ride="carousel">
+
+                <!-- 轮播图片 -->
+                <div class="carousel-inner">
+                    <!--不要设置版心，要把轮播图充满屏幕也就是 container-fiuid -->
+                    <div class="carousel-item active container-fluid carousel-content">
+                        <div class="interpret">
+                            <h3>认真做事，小而美！ Small and beautiful!</h3>
+                        </div>
+                        <div class="pic">
+                            <img src="./images/ppt1.jpg">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item container-fluid  carousel-content">
+                        <div class="interpret text-center" >
+                            <h3>认自主软件研发、大数据、金融服务、IT技术培训。</h3>
+                        </div>
+                        <div class="pic">
+                            <img src="./images/ppt3.jpg">
+                        </div>
+                </div>
+
+                <!-- 左右切换按钮 -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <!-- 服务与支持 -->
+    <section id="service">
+        <div id="section2" class="container-fluid section-second content text-center " style="padding-top:75px;padding-bottom:120px">
+            <h1>服务与支持</h1>
+            <span></span>
+            <div class="container">
+                <div class="row service-content">
+                    <div class="col-sm-12 col-md-6 col-lg-2 col-12 ">
+                        <i class="icon-backing icon-md"></i>
+                        <h3>系统集成</h3>
+                        <p>低成本的、高效率的
+                            <br/>性能匀称的
+                            <br/>可扩充性、可维护</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-2 col-12">
+                        <i class="icon-backing1 icon-md"></i>
+                        <h3>APP应用开发</h3>
+                        <p>iOS、Andriod
+                            <br/> 抢占商机、清新美观
+                            <br/> 体验感强、成本低廉</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-2 col-12">
+                        <i class="icon-backing2 icon-md"></i>
+                        <h3>网站开发</h3>
+                        <p>低成本的、高效率的
+                            <br/>性能匀称的
+                            <br/> 可扩充性、可维护</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-2 col-12">
+                        <i class="icon-backing3 icon-md"></i>
+                        <h3>企业应用</h3>
+                        <p>功能全面，界面美观
+                            <br/> 安全性能高
+                            <br/>无缝对接的后期维护</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-2 col-12">
+                        <i class="icon-backing4 icon-md"></i>
+                        <h3>CRM</h3>
+                        <p>客户资源、客户关系
+                            <br/>客户数据
+                            <br/>客户关怀等管理维护</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- 服务与支持结束 -->
+
+    <!-- 产品展示 -->
+    <section id="product">
+        <div id="section3" class="container-fluid section-third text-center" style="padding-top:75px;padding-bottom:80px">
+            <h1>产品展示</h1>
+            <span></span>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 d-flex justify-content-center ">
+                        <div class="product-bg" style="width:312px;">
+                            <div class=" product-content product-photo ">
+                                <a href="#">
+                                    <img src="./images/product_app1.png" alt="" style="padding-top: 10px;">
+                                </a>
+                                <span></span>
+                            </div>
+                            <h4>爱鲜生</h4>
+                            <i>电商APP应用开发</i>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 d-flex justify-content-center">
+                        <div class="product-bg" style="width:312px;">
+                            <div class=" product-content product-photo">
+                                <a href="#">
+                                    <img src="./images/product_com4.jpg" alt="">
+                                </a>
+                                <span></span>
+                            </div>
+                            <h4>温江规划局</h4>
+                            <i>政府应用开发</i>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 d-flex justify-content-center">
+                        <div class="product-bg" style="width:312px;">
+                            <div class=" product-content product-photo">
+                                <a href="#">
+                                    <img src="./images/product_com2.png" alt="">
+                                </a>
+                                <span></span>
+                            </div>
+                            <h4>销售助手管理平台</h4>
+                            <i>运营商应用开发</i>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 d-flex justify-content-center">
+                        <div class="product-bg" style="width:312px;">
+                            <div class=" product-content product-photo">
+                                <a href="#">
+                                    <img src="./images/product_com5.jpg" alt="">
+                                </a>
+                                <span></span>
+                            </div>
+                            <h4>雅安科技馆</h4>
+                            <i>网站/微信/呼叫中心建设</i>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 d-flex justify-content-center">
+                        <div class="product-bg" style="width:312px;">
+                            <div class=" product-content product-photo">
+                                <a href="#">
+                                    <img src="./images/product_web3.png" alt="">
+                                </a>
+                                <span></span>
+                            </div>
+                            <h4>中丹环保环保管家系统</h4>
+                            <i>一站式环保综合服务平台</i>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 d-flex justify-content-center">
+                        <div class="product-bg" style="width:312px;">
+                            <div class=" product-content product-photo">
+                                <a href="#">
+                                    <img src="./images/product_we1.png" alt="">
+                                </a>
+                                <span></span>
+                            </div>
+                            <h4>国网乐山人资互动平台</h4>
+                            <i>微信公众号</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 产品展示结束 -->
+
+    <!-- 我们的客户 -->
+    <section id="customer">
+        <div id="section4" class="container-fluid section-fourth text-center" style="padding-top:70px;padding-bottom:70px">
+            <h1>我们的客户</h1>
+            <span></span>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3  col-md-6 col-sm-12 col-12 customer-photo">
+                        <div class="customer-photo">
+                            <a href="">
+                                <img src="./images/client2.png" alt="">
+                            </a>
+                        </div>
+                        <span></span>
+                    </div>
+                    <div class="col-lg-3  col-md-6 col-sm-12 col-12 customer-photo">
+                        <div class="customer-photo ">
+                            <a href="">
+                                <img src="./images/client5.png" alt="">
+                            </a>
+                        </div>
+                        <span></span>
+                    </div>
+                    <div class="col-lg-3  col-md-6 col-sm-12 col-12 customer-photo">
+                        <div class="customer-photo">
+                            <a href="">
+                                <img src="./images/client6.png" alt="">
+                            </a>
+                        </div>
+                        <span></span>
+                    </div>
+                    <div class="col-lg-3  col-md-6 col-sm-12 col-12 customer-photo">
+                        <div class="customer-photo">
+                            <a href="">
+                                <img src="./images/client7.png" alt="">
+                            </a>
+                        </div>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 我们的客户 结束-->
+
+    <!-- 关于我们 -->
+    <section id="about">
+        <div id="section5" class="container-fluid section-fifth text-center" style="padding-top:70px;padding-bottom:70px">
+            <h1>关于我们</h1>
+            <span></span>
+            <div class="about-content">
+                以客户需求为导向，以客户价值为目标，以客户满意为标准
+                <br/> 坚持变革，倡导创新，持续成长。 快速反应，快速决策，快速行动
+                <br/> 企业与员工共同成长， 专注主营业务。
+            </div>
+        </div>
+    </section>
+    <!-- 关于我们结束 -->
+    <!-- 联系我们 -->
+    <section id="contactus">
+        <div class="container">
+            <div class="row contactus-list">
+                <div class="col-lg-4 col-md-6 col-12 contactus-content ">
+                    <i class="icon-tel1"></i>
+                    <span>电话：028-67871837</span>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 contactus-content ">
+                    <i class="icon-tel2"></i>
+                    <span>
+                        地址：成都市高新区菁蓉国际广场4栋5楼A15</span>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 contactus-content ">
+                    <i class="icon-tel3"></i>
+                    <span>邮箱：kefu@xfc123.com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 联系我们结束 -->
+    <!-- 底部 -->
+    <footer id="footer">
+        <div class="container">
+            <div class="col-sm-12 text-center">
+                <span>Copyright © 2017 Xiaofengche Inc. 保留所有权利.&nbsp;&nbsp;&nbsp;&nbsp;蜀ICP备15020376号-1</span>
+            </div>
+        </div>
+    </footer>
+    <!-- footer结束 -->
+    <!-- 在线客服 -->
+    <section id="online">
+
+    </section>
+    <!-- 在线客服结束 -->
+    <script src="../prj/libs/jquery/jquerymain.js"></script>
+    <script src="../prj/libs/popper/poppermain.js"></script>
+    <script src="../prj/libs/bootstrap/bootstrapmain.js"></script>
+</body>
+
+</html>
